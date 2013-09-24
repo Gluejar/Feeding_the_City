@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+<meta name="dtb:uid" content="9781909254039"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="234"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle><text>Feeding the City</text></docTitle>
+<docAuthor><text>Sara Roncaglia</text></docAuthor>
+<navMap>
+<navPoint id="navpoint-1" playOrder="1"><navLabel><text>Front Cover</text></navLabel><content src="cover.html"/></navPoint>
+<navPoint id="navpoint-2" playOrder="2"><navLabel><text>Half-title Page</text></navLabel><content src="half.html"/></navPoint>
+<navPoint id="navpoint-3" playOrder="3"><navLabel><text>Title Page</text></navLabel><content src="title.html"/></navPoint>
+<navPoint id="navpoint-4" playOrder="4"><navLabel><text>Copyright Page</text></navLabel><content src="copy.html"/></navPoint>
+<navPoint id="navpoint-5" playOrder="5"><navLabel><text>Contents</text></navLabel><content src="toc.html"/></navPoint>
+<navPoint id="navpoint-6" playOrder="6"><navLabel><text>Acknowledgements</text></navLabel><content src="ack.html"/></navPoint>
+<navPoint id="navpoint-7" playOrder="7"><navLabel><text>Preface</text></navLabel><content src="preface.html"/></navPoint>
+<navPoint id="navpoint-8" playOrder="8"><navLabel><text>Introduction</text></navLabel><content src="intro.html"/></navPoint>
+<navPoint id="navpoint-9" playOrder="9"><navLabel><text>1: Bombay-Mumbai and the Dabbawalas: Origin and Development of a Parallel Economy</text></navLabel><content src="chap1.html"/></navPoint>
+<navPoint id="navpoint-10" playOrder="10"><navLabel><text>2: Dabbawala Ethics in Transition</text></navLabel><content src="chap2.html"/></navPoint>
+<navPoint id="navpoint-11" playOrder="11"><navLabel><text>3: Nutan Mumbai Tiffin Box Suppliers Charity Trust: The Shaping of Dabbawala Relations</text></navLabel><content src="chap3.html"/></navPoint>
+<navPoint id="navpoint-12" playOrder="12"><navLabel><text>Conclusions: Tastes and Cultures</text></navLabel><content src="conclusion.html"/></navPoint>
+<navPoint id="navpoint-13" playOrder="13"><navLabel><text>Appendix: Theory and Practice for an Ethnography of Diversities</text></navLabel><content src="appendix.html"/></navPoint>
+<navPoint id="navpoint-14" playOrder="14"><navLabel><text>Glossary</text></navLabel><content src="glossary.html"/></navPoint>
+<navPoint id="navpoint-15" playOrder="15"><navLabel><text>Select Bibliography</text></navLabel><content src="biblo.html"/></navPoint>
+<navPoint id="navpoint-16" playOrder="16"><navLabel><text>Index</text></navLabel><content src="index.html"/></navPoint>
+<navPoint id="navpoint-17" playOrder="17"><navLabel><text>Back Cover</text></navLabel><content src="backcover.html"/></navPoint>
+</navMap>
+</ncx>

@@ -1,0 +1,546 @@
+.booksection
+{
+		margin-top: 0em;
+		margin-bottom: 0em;
+		margin-left: 0em;
+		margin-right: 1.7em;
+                hyphens:none;
+                -webkit-hyphens:none;
+                -webkit-hyphenate-character:none;
+                -webkit-hyphenate-limit-after:none;
+                -webkit-hyphenate-limit-before:none;
+                -moz-hyphens:none;
+}
+@font-face
+        {
+        font-family:'Calibri-Italic';
+        src: url(fonts/Calibri-Italic.ttf);
+        }
+@font-face
+        {
+        font-family:'DejaVuSerif';
+        src: url(fonts/DejaVuSerif.ttf);
+        }
+@font-face
+        {
+        font-family:'Calibri';
+        src: url(fonts/Calibri.ttf);
+        }
+@font-face
+        {
+        font-family:'Californian-FB-Italic';
+        src: url(fonts/Californian-FB-Italic.ttf);
+        }
+@font-face
+        {
+        font-family:'Californian-FB';
+        src: url(fonts/Californian-FB.ttf);
+        }
+@font-face
+        {
+        font-family:'fontin';
+        src: url(fonts/fontin.otf);
+        }
+@font-face
+        {
+        font-family:'Palatino_Linotype';
+        src: url(fonts/Palatino_Linotype.otf);
+        }
+@font-face
+        {
+        font-family:'Palatino_Linotype_Bold';
+        src: url(fonts/Palatino_Linotype_Bold.otf);
+        }
+@font-face
+        {
+        font-family:'Palatino_Linotype_Bold_Italic';
+        src: url(fonts/Palatino_Linotype_Bold_Italic.otf);
+        }
+@font-face
+        {
+        font-family:'Palatino_Linotype_Italic';
+        src: url(fonts/Palatino_Linotype_Italic.otf);
+        }
+@font-face
+        {
+        font-family:'Times_Roman';
+        src: url(fonts/Times_Roman.otf);
+        }
+@font-face
+        {
+        font-family:'timesbd';
+        src: url(fonts/timesbd.otf);
+        }
+i
+        {
+        font-family:'Palatino_Linotype_Italic';
+        }
+b
+        {
+        font-family:'Palatino_Linotype_Bold';
+        }
+b > i
+        {
+        font-family:'Palatino_Linotype_Bold_Italic';
+        }
+i > b
+        {
+        font-family:'Palatino_Linotype_Bold_Italic';
+        }
+
+p
+	{
+		text-align: justify;
+		text-indent: 0em;
+		font-size: 100%;
+		margin-top: .1em;
+                font-family:'Palatino_Linotype';
+                margin-bottom: 0em;
+	}
+a
+{
+	text-decoration: none;
+}
+.img
+{
+	text-align:center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+}
+.halftitle
+{
+        font-family:'Palatino_Linotype';
+	font-size: 150%;
+	text-align: center;
+	margin-left: 0em;
+	margin-top: 2em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.booktitle
+{
+        font-family:'Palatino_Linotype';
+	font-size: 150%;
+	text-align: center;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.booktitle1
+{
+        font-family:'Palatino_Linotype';
+	font-size: 130%;
+	text-align: center;
+	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+}
+.booktitle2
+{
+        font-family:'Palatino_Linotype';
+	font-size: 130%;
+	text-align: center;
+	margin-left: 1em;
+	margin-top: 1.5em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+}
+.copy
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: justify;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+.copy1
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: justify;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.copy2
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: justify;
+	margin-left: 1em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.copy3
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: center;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.chap-title
+{
+        font-family:'Californian-FB';
+	font-size: 200%;
+	text-align: justify;
+	margin-left: 0.6em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 3em;
+	padding-bottom: 0.5em;
+	border-bottom: 0.05em solid #000000;
+}
+.toc
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align:left;
+	text-indent: -1.5em;
+	margin-left: 1.5em;
+	margin-top: 0.6em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.s-box
+{
+	background: #e7e7e8;
+	padding: 1em;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.noindent
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.indent
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: justify;
+	text-indent: 1.5em;
+	margin-left: 0em;
+	margin-top: 0.2em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.right
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: right;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.chap-title1
+{
+        font-family:'Californian-FB';
+	font-size: 200%;
+	font-weight: normal;
+	text-align: left;
+	text-indent: -1.8em;
+	margin-left: 2.4em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.sidebar
+{
+        font-family:'Palatino_Linotype';
+	font-size: 90%;
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 1.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+}
+.h4
+{
+        font-family:'Palatino_Linotype_Bold';
+	font-size: 130%;
+	text-align: left;
+	text-indent: -1.1em;
+	margin-left: 1.1em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+}
+.h5
+{
+        font-family:'Palatino_Linotype';
+	font-size: 120%;
+	text-align: left;
+	text-indent: -1.1em;
+	margin-left: 1.1em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+}
+.caption
+{
+        font-family:'Palatino_Linotype';
+	font-size: 90%;
+	text-align: center;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.break
+{
+        page-break-inside:avoid;
+}
+.box
+{
+	border: 0.05em solid #000000;
+	padding: 0.5em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.box-title
+{
+        font-family:'Palatino_Linotype_Bold_Italic';
+	font-size: 105%;
+	text-align: left;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.footnote
+{
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 2em;
+        text-align:left;
+	margin-right: 0;
+        font-family:'Palatino_Linotype_Bold';
+	font-size: 120%;        
+	margin-bottom: 1em;
+}
+.table
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: center;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.table1
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: left;
+	text-indent: 0em;
+	margin-left: 0em;
+        padding-left: 0.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+}
+.table2
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 0em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+}
+.table-hang
+{
+        font-family:'Palatino_Linotype';
+	font-size: 100%;
+	text-align: left;
+	text-indent: -1em;
+	margin-left: 1.5em;
+	margin-top: 0.5em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+}
+.ref-para
+{
+        font-family:'Palatino_Linotype';
+	font-size: 90%;
+	text-align: justify;
+	text-indent: -1.7em;
+	margin-left: 1.7em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.index2
+{
+        font-family:'Palatino_Linotype';
+	font-size: 90%;
+	text-align: justify;
+	text-indent: -1em;
+	margin-left: 1.7em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.index1-top
+{
+        font-family:'Palatino_Linotype';
+	font-size: 90%;
+	text-align: justify;
+	text-indent: -1.7em;
+	margin-left: 1.7em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.note
+{
+        font-family:'Palatino_Linotype';
+	font-size: 80%;
+	text-align: left;
+	text-indent: -1.2em;
+	margin-left: 1.7em;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.note1
+{
+        font-family:'Palatino_Linotype';
+	font-size: 80%;
+	text-align: left;
+	text-indent: -1.7em;
+	margin-left: 1.7em;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.note2
+{
+        font-family:'Palatino_Linotype';
+	font-size: 80%;
+	text-align: left;
+	text-indent: -2.5em;
+	margin-left: 2em;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.calibri
+{
+        font-family:'Calibri';
+	font-size: 130%;
+	text-align: center;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.calibri2
+{
+        font-family:'Calibri';
+	font-size: 110%;
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.calibri3
+{
+        font-family:'Calibri';
+	font-size: 110%;
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 1.2em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.FontinSans
+{
+        font-family:'fontin';
+	font-size: 200%;
+	text-align: center;
+	text-indent: 0em;
+	margin-left: 1.2em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 1.2em;
+}
+.calibri4
+{
+        font-family:'Calibri';
+	font-size: 90%;
+	text-align: justify;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.calibri5
+{
+        font-family:'Calibri';
+	font-size: 90%;
+	text-align: center;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.entity
+{
+        font-family:'timesbd';
+}
+.entity1
+{
+        font-family:'DejaVuSerif';
+}
+sup
+{
+font-size:70%;
+}
+sub
+{
+font-size:70%;
+margin-top:0em;
+}
+.doi
+{
+        font-family:'Palatino_Linotype';
+	font-size: 90%;
+	text-align: right;
+        margin-bottom: 4em;
+}

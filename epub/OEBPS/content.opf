@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="isbn">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Feeding the City</dc:title>
+<dc:creator>Sara Roncaglia</dc:creator>
+<dc:language>en</dc:language>
+<dc:rights>&#169; Sara Roncaglia</dc:rights>
+<dc:publisher>Open Book Publishers</dc:publisher>
+<dc:identifier id="isbn">9781909254039</dc:identifier>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<!--Fonts-->
+<item id="font1" href="fonts/Calibri.ttf" media-type="application/x-font-ttf"/>
+<item id="font2" href="fonts/Calibri-Italic.ttf" media-type="application/x-font-ttf"/>
+<item id="font3" href="fonts/Californian-FB.ttf" media-type="application/x-font-ttf"/>
+<item id="font4" href="fonts/Californian-FB-Italic.ttf" media-type="application/x-font-ttf"/>
+<item id="font5" href="fonts/fontin.otf" media-type="application/vnd.ms-opentype"/>
+<item id="font6" href="fonts/Palatino_Linotype.otf" media-type="application/x-font-otf"/>
+<item id="font7" href="fonts/Palatino_Linotype_Bold.otf" media-type="application/x-font-otf"/>
+<item id="font8" href="fonts/Palatino_Linotype_Bold_Italic.otf" media-type="application/x-font-otf"/>
+<item id="font9" href="fonts/Palatino_Linotype_Italic.otf" media-type="application/x-font-otf"/>
+<item id="font10" href="fonts/Times_Roman.otf" media-type="application/x-font-otf"/>
+<item id="font11" href="fonts/timesbd.otf" media-type="application/x-font-otf"/>
+<item id="font12" href="fonts/DejaVuSerif.ttf" media-type="application/x-font-ttf"/>
+<!-- Images -->
+<item id="cover-image" href="images/cover.jpg" media-type="image/jpeg"/>
+<item id="image1" href="images/backcover.jpg" media-type="image/jpeg"/>
+<item id="image2" href="images/p10_1.jpg" media-type="image/jpeg"/>
+<item id="image3" href="images/p100_1.jpg" media-type="image/jpeg"/>
+<item id="image4" href="images/p102_1.jpg" media-type="image/jpeg"/>
+<item id="image5" href="images/p103_1.jpg" media-type="image/jpeg"/>
+<item id="image6" href="images/p104_1.jpg" media-type="image/jpeg"/>
+<item id="image7" href="images/p104_10.jpg" media-type="image/jpeg"/>
+<item id="image8" href="images/p104_11.jpg" media-type="image/jpeg"/>
+<item id="image9" href="images/p104_2.jpg" media-type="image/jpeg"/>
+<item id="image10" href="images/p104_3.jpg" media-type="image/jpeg"/>
+<item id="image11" href="images/p104_4.jpg" media-type="image/jpeg"/>
+<item id="image12" href="images/p104_5.jpg" media-type="image/jpeg"/>
+<item id="image13" href="images/p104_6.jpg" media-type="image/jpeg"/>
+<item id="image14" href="images/p104_7.jpg" media-type="image/jpeg"/>
+<item id="image15" href="images/p104_8.jpg" media-type="image/jpeg"/>
+<item id="image16" href="images/p104_9.jpg" media-type="image/jpeg"/>
+<item id="image17" href="images/p106_1.jpg" media-type="image/jpeg"/>
+<item id="image18" href="images/p107_1.jpg" media-type="image/jpeg"/>
+<item id="image19" href="images/p15_1.jpg" media-type="image/jpeg"/>
+<item id="image20" href="images/p215_1.jpg" media-type="image/jpeg"/>
+<item id="image21" href="images/p217_1.jpg" media-type="image/jpeg"/>
+<item id="image22" href="images/p28_1.jpg" media-type="image/jpeg"/>
+<item id="image23" href="images/p4_1.jpg" media-type="image/jpeg"/>
+<item id="image24" href="images/p42_1.jpg" media-type="image/jpeg"/>
+<item id="image25" href="images/p82_1.jpg" media-type="image/jpeg"/>
+<item id="image26" href="images/p88_1.jpg" media-type="image/jpeg"/>
+<item id="image27" href="images/p93_1.jpg" media-type="image/jpeg"/>
+<item id="image28" href="images/p96_1.jpg" media-type="image/jpeg"/>
+<item id="image29" href="images/piv_1.jpg" media-type="image/jpeg"/>
+<item id="image30" href="images/piv_2.jpg" media-type="image/jpeg"/>
+<item id="image31" href="images/publisher.jpg" media-type="image/jpeg"/>
+<!-- NCX -->
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<!-- CSS Style Sheets -->
+<item id="stylesheet" href="stylesheet.css" media-type="text/css"/>
+<item id="page-template" href="page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<!-- Content Documents -->
+<item id="cover" href="cover.html" media-type="application/xhtml+xml"/>
+<item id="half" href="half.html" media-type="application/xhtml+xml"/>
+<item id="title" href="title.html" media-type="application/xhtml+xml"/>
+<item id="copy" href="copy.html" media-type="application/xhtml+xml"/>
+<item id="back" href="back.html" media-type="application/xhtml+xml"/>
+<item id="toc" href="toc.html" media-type="application/xhtml+xml"/>
+<item id="book" href="book.html" media-type="application/xhtml+xml"/>
+<item id="ack" href="ack.html" media-type="application/xhtml+xml"/>
+<item id="preface" href="preface.html" media-type="application/xhtml+xml"/>
+<item id="intro" href="intro.html" media-type="application/xhtml+xml"/>
+<item id="Chap1" href="chap1.html" media-type="application/xhtml+xml"/>
+<item id="Chap2" href="chap2.html" media-type="application/xhtml+xml"/>
+<item id="Chap3" href="chap3.html" media-type="application/xhtml+xml"/>
+<item id="conclusion" href="conclusion.html" media-type="application/xhtml+xml"/>
+<item id="appendix" href="appendix.html" media-type="application/xhtml+xml"/>
+<item id="glossary" href="glossary.html" media-type="application/xhtml+xml"/>
+<item id="biblo" href="biblo.html" media-type="application/xhtml+xml"/>
+<item id="index" href="index.html" media-type="application/xhtml+xml"/>
+<item id="back2" href="back2.html" media-type="application/xhtml+xml"/>
+<item id="backcover" href="backcover.html" media-type="application/xhtml+xml"/>
+</manifest>
+<spine toc="ncx">
+<itemref idref="cover" linear="yes"/>
+<itemref idref="half" linear="yes"/>
+<itemref idref="title" linear="yes"/>
+<itemref idref="copy" linear="yes"/>
+<itemref idref="back" linear="yes"/>
+<itemref idref="toc" linear="yes"/>
+<itemref idref="book" linear="yes"/>
+<itemref idref="ack" linear="yes"/>
+<itemref idref="preface" linear="yes"/>
+<itemref idref="intro" linear="yes"/>
+<itemref idref="Chap1" linear="yes"/>
+<itemref idref="Chap2" linear="yes"/>
+<itemref idref="Chap3" linear="yes"/>
+<itemref idref="conclusion" linear="yes"/>
+<itemref idref="appendix" linear="yes"/>
+<itemref idref="glossary" linear="yes"/>
+<itemref idref="biblo" linear="yes"/>
+<itemref idref="index" linear="yes"/>
+<itemref idref="back2" linear="yes"/>
+<itemref idref="backcover" linear="yes"/>
+</spine>
+<guide>
+<reference type="Cover" title="Cover Image" href="cover.html"/>
+<reference type="text" title="Title Page" href="title.html"/>
+<reference type="toc" title="Contents" href="toc.html"/>
+</guide>
+</package>
